@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+my_env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Videos (large files)
+input_video/*.mp4
+input_video/*.avi
+input_video/*.mov
+output_video/*.mp4
+output_video/*.avi
+output_video/*.mov
+
+# Models (large files)
+models/*.pt
+models/*.pth
+models/*.h5
+
+# Stubs/Cache
+stubs/*.pkl
+stubs/*.pickle
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.bak
+*~
